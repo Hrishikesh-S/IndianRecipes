@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.indianrecipes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndianRecipes">
+        <activity android:name=".Chapathi"></activity>
+        <activity android:name=".SteamedRice" />
+        <activity android:name=".VegetableBiryani" />
+        <activity android:name=".TamarindRice" />
+        <activity android:name=".EggBiryani" />
+        <activity android:name=".Category5" />
+        <activity android:name=".VegetableManchurian" />
+        <activity android:name=".VegetableNoodles" />
+        <activity android:name=".Mushroom_Manchurian" />
+        <activity
+            android:name=".MushroomManchurian"
+            android:label="@string/title_activity_mushroom_manchurian"
+            android:theme="@style/Theme.IndianRecipes.NoActionBar" />
+        <activity android:name=".ChurmuriSnack" />
+        <activity android:name=".Category4" />
+        <activity android:name=".Sambar" />
+        <activity android:name=".BellPepperAndCarrotCurry" />
+        <activity android:name=".CabbageDalCurry" />
+        <activity android:name=".BroadBeansCurry" />
+        <activity android:name=".PaneerButterMasala" />
+        <activity android:name=".CholeMasala" />
+        <activity android:name=".Category3" />
+        <activity android:name=".RedCabbageBalls" />
+        <activity android:name=".OkraFry" />
+        <activity android:name=".EggplantFry" />
+        <activity android:name=".PlantainChips" />
+        <activity android:name=".Category2" />
+        <activity android:name=".Laddu" />
+        <activity android:name=".Category1" />
+        <activity android:name=".Recipes" />
+        <activity android:name=".GulabJamun" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
